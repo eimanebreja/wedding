@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta name="description" content="" />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	<title>Wedding</title>
+	<!-- CSS Section -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css"
+		integrity="sha384-3AB7yXWz4OeoZcPbieVW64vVXEwADiYyAEhwilzWsLw+9FgqpyjjStpPnpBO8o8S" crossorigin="anonymous" />
+	<link rel="stylesheet" type="text/css" href="assets/css/materialize/materialize.css" />
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+	<link rel="stylesheet" href="assets/css/owl.carousel.css">
+	<link rel="stylesheet" href="assets/css/owl.theme.default.css">
+	<link rel="stylesheet" href="assets/css/owl-custom.css">
+	<!-- CSS Section -->
+
+	<style>
+		/* Click the image one by one to see the different layout */
+
+		/* Owl Carousel */
+	</style>
+</head>
+
+<body>
+	<main>
+		<header>
+			<div class="wedding-header">
+				<div class="wedding-header-image">
+					<div class="wedding-header-button">
+						<div class="white-border">
+							<a href="#">
+								<p>お問い合わせ・資料請求</p>
+							</a>
+						</div>
+					</div>
+					<div class="top-header-button-nav">
+						<div class="menu-button" id="menu-contain">
+							<div class="menu-animation" onclick="openNavSp()">
+								<div class="bar1"></div>
+								<div class="bar2"></div>
+								<div class="bar3"></div>
+							</div>
+						</div>
+					</div>
+					<div class="wedding-icon">
+						<img src="assets/img/2.png" alt="Image Icon" />
+					</div>
+					<div class="wedding-header-text">
+						<h1>
+							<h1>サン・フィレール岡崎</h1>
+						</h1>
+					</div>
+				</div>
+			</div>
+		</header>
+		<div id="myNavSp" class="overlay">
+			<a href="javascript:void(0)" class="closebtn" onclick="closeNavSp()">&times;</a>
+			<div class="overlay-content">
+				<ul>
+					<li>
+						<a href="#home" id="link_homesp" onclick="closeNavSp()"><img src="assets/img/2.png"
+								alt="Image Icon" /></a>
+					</li>
+
+					<li>
+						<a href="#concept" id="link_conceptsp" onclick="closeNavSp()">コンセプト</a>
+					</li>
+					<li>
+						<a href="#partyspace" id="link_partyspacesp" onclick="closeNavSp()">チャペル・披露宴会場</a>
+					</li>
+					<li>
+						<a href="#ceremony" id="link_ceremonysp" onclick="closeNavSp()">挙式</a>
+					</li>
+					<li>
+						<a href="#facility" id="link_facilitysp" onclick="closeNavSp()">施設</a>
+					</li>
+					<li>
+						<a href="#cuisine" id="link_cuisinesp" onclick="closeNavSp()">料理</a>
+					</li>
+					<li>
+						<a href="#photogallery" id="link_photogallerysp" onclick="closeNavSp()">フォトギャラリー</a>
+					</li>
+					<li>
+						<a href="#access" id="link_accesssp" onclick="closeNavSp()">アクセス</a>
+					</li>
+					<li>
+						<a href="#" id="link_accesssp" onclick="closeNavSp()">お問い合わせ・資料請求</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+
+
+		<nav>
+			<div class="navigation-content">
+				<div class="navigation-content-flex">
+					<div class="flex-border">
+						<p>|</p>
+					</div>
+					<div class="menu">
+						<a href="#concept" id="link_concept">
+							<p>Concept</p>
+							<p id="below-text">コンセプト</p>
+						</a>
+					</div>
+					<div class="flex-border">
+						<p>|</p>
+					</div>
+					<div class="menu">
+						<a href="#partyspace" id="link_partyspace">
+							<p>Party Space</p>
+							<p id="below-text">チャペル・披露宴会場</p>
+						</a>
+					</div>
+					<div class="flex-border">
+						<p>|</p>
+					</div>
+					<div class="menu">
+						<a href="#ceremony" id="link_ceremony">
+							<p>Ceremony</p>
+							<p id="below-text">挙式</p>
+						</a>
+					</div>
+					<div class="flex-border">
+						<p>|</p>
+					</div>
+					<div class="menu">
+						<a href="#facility" id="link_facility">
+							<p>Facility</p>
+							<p id="below-text">施設</p>
+						</a>
+					</div>
+					<div class="flex-border">
+						<p>|</p>
+					</div>
+					<div class="menu">
+						<a href="#cuisine" id="link_cuisine">
+							<p>Cuisine</p>
+							<p id="below-text">料理</p>
+						</a>
+					</div>
+					<div class="flex-border">
+						<p>|</p>
+					</div>
+					<div class="menu">
+						<a href="#photogallery" id="link_photogallery">
+							<p>Photo Gallery</p>
+							<p id="below-text">フォトギャラリー</p>
+						</a>
+					</div>
+					<div class="flex-border">
+						<p>|</p>
+					</div>
+					<div class="menu">
+						<a href="#access" id="link_access">
+							<p>Access</p>
+							<p id="below-text">アクセス</p>
+						</a>
+					</div>
+					<div class="flex-border">
+						<p>|</p>
+					</div>
+				</div>
+			</div>
+		</nav>
+
+		<section class="section-1">
+			<div class="section-1-main" id="concept">
+				<div class="section-1-title">
+					<h1>感謝を紡ぐ、伝統と革新のマリアージュ</h1>
+					<h2>Concept</h2>
+					<div class="line"></div>
+				</div>
+				<div class="section-1-body">
+					<p>サンフィレール岡崎は、花嫁の感謝を紡ぐステージです。</p>
+					<p>これまでの感謝と、これからの未来への感謝が紡がれる場所。</p>
+					<p>両親の幸せの記憶が、子どもの世代に紡がれる場所。</p>
+					<p>
+						過去と未来が一つの線で紡がれていく。その瞬間を最高の形で演出いたします。
+					</p>
+
+					<div class="other-paragraph">
+						<p>サンフィレール岡崎は、</p>
+						<p>出雲殿の伝統と格式を受け継ぎながらも、常に革新性を大切に、</p>
+						<p>常にお客様へ清新な感動を与え続けていきます。</p>
+					</div>
+
+					<div class="view-more">
+						<a href="#">
+							<p>
+								View More <span><img src="assets/img/arrow.png" /></span>
+							</p>
+						</a>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="section-2">
+			<div class="section-2-main">
+				<div class="container">
+					<div class="section-2-body">
+						<div class="body-2-flex" id="partyspace">
+							<div class="image-content">
+								<img src="assets/img/3.jpg" />
+							</div>
+							<div class="text-image-content">
+								<div class="title-1">
+									<h1>Party Space</h1>
+									<h2>チャペル・披露宴会場</h2>
+									<div class="line"></div>
+								</div>
+								<div class="title-body">
+									<p>会場の説明が入ります。会場の説明が入ります。</p>
+									<p>会場の説明が入ります。</p>
+									<p>サンフィレール岡崎は、</p>
+									<p>出雲殿の伝統と格式を受け継ぎながらも、常に革新性を大切に、</p>
+									<p>常にお客様へ清新な感動を与え続けていきます。</p>
+									<div class="view-more">
+										<a href="#">
+											<p>
+												View More <span><img src="assets/img/arrow.png" /></span>
+											</p>
+										</a>
+									</div>
+
+									<div class="image-content-below">
+										<img src="assets/img/4.jpg" alt="Image" />
+
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="body-2-flex-2" id="ceremony">
+							<div class="image-content">
+								<img src="assets/img/5.jpg" />
+							</div>
+							<div class="text-image-content">
+								<div class="title-1">
+									<h1>Ceremony</h1>
+									<h2>挙式</h2>
+									<div class="line-content">
+										<div class="line"></div>
+									</div>
+								</div>
+								<div class="title-body">
+									<p>会場の説明が入ります。会場の説明が入ります。</p>
+									<p>会場の説明が入ります。</p>
+									<p>サンフィレール岡崎は、</p>
+									<p>出雲殿の伝統と格式を受け継ぎながらも、常に革新性を大切に、</p>
+									<p>常にお客様へ清新な感動を与え続けていきます。</p>
+									<div class="view-more">
+										<a href="#">
+											<p>
+												View More <span><img src="assets/img/arrow.png" /></span>
+											</p>
+										</a>
+									</div>
+
+									<div class="image-content-below">
+										<img src="assets/img/6.jpg" alt="Image" />
+
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="body-2-flex-3" id="facility">
+							<div class="image-content">
+								<img src="assets/img/7.jpg" />
+							</div>
+							<div class="text-image-content">
+								<div class="title-1">
+									<h1>Facility</h1>
+									<h2>施設</h2>
+									<div class="line"></div>
+								</div>
+								<div class="title-body">
+									<p>会場の説明が入ります。会場の説明が入ります。</p>
+									<p>会場の説明が入ります。</p>
+									<p>サンフィレール岡崎は、</p>
+									<p>出雲殿の伝統と格式を受け継ぎながらも、常に革新性を大切に、</p>
+									<p>常にお客様へ清新な感動を与え続けていきます。</p>
+									<div class="view-more">
+										<a href="#">
+											<p>
+												View More <span><img src="assets/img/arrow.png" /></span>
+											</p>
+										</a>
+									</div>
+
+									<div class="image-content-below">
+										<img src="assets/img/8.jpg" alt="Image" />
+
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="body-2-flex-4" id="cuisine">
+							<div class="image-content">
+								<img src="assets/img/9.jpg" />
+							</div>
+							<div class="text-image-content">
+								<div class="title-1">
+									<h1>Cuisine</h1>
+									<h2>料理</h2>
+									<div class="line-content">
+										<div class="line"></div>
+									</div>
+
+								</div>
+								<div class="title-body">
+									<p>会場の説明が入ります。会場の説明が入ります。</p>
+									<p>会場の説明が入ります。</p>
+									<p>サンフィレール岡崎は、</p>
+									<p>出雲殿の伝統と格式を受け継ぎながらも、常に革新性を大切に、</p>
+									<p>常にお客様へ清新な感動を与え続けていきます。</p>
+									<div class="view-more">
+										<a href="#">
+											<p>
+												View More <span><img src="assets/img/arrow.png" /></span>
+											</p>
+										</a>
+									</div>
+
+									<div class="image-content-below">
+										<img src="assets/img/10.jpg" alt="Image" />
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="section-3" id="photogallery">
+			<div class="section-3-main">
+				<div class="section-3-title">
+					<h1>Photo gallery</h1>
+					<h2>フォトギャラリー</h2>
+				</div>
+				<div class="owl-carousel">
+					<div class="item">
+						<a href="">
+							<img src="assets/img/11.jpg" />
+						</a>
+					</div>
+					<div class="item">
+						<a href="">
+							<img src="assets/img/12.jpg" />
+						</a>
+					</div>
+					<div class="item">
+						<a href="">
+							<img src="assets/img/13.jpg" />
+						</a>
+					</div>
+					<div class="item">
+						<a href="">
+							<img src="assets/img/14.jpg" />
+						</a>
+					</div>
+					<div class="item">
+						<a href="">
+							<img src="assets/img/15.jpg" />
+						</a>
+					</div>
+				</div>
+				<div class="view-more">
+					<a href="#">
+						<p>
+							View More <span><img src="assets/img/arrow.png" /></span>
+						</p>
+					</a>
+				</div>
+			</div>
+		</section>
+
+		<section class="section-4">
+			<div class="section-4-main">
+				<div class="section-4-flex">
+					<div class="image-content">
+						<img src="assets/img/16.jpg" />
+					</div>
+					<div class="text-image-content">
+						<div class="title-1">
+							<h1>Plan</h1>
+							<h2>プラン</h2>
+							<div class="line"></div>
+						</div>
+						<div class="title-body">
+							<p>プランの説明が入ります。プランの説明が入ります。</p>
+							<p>プランの説明が入ります。</p>
+							<p>サンフィレール岡崎は、</p>
+							<p>出雲殿の伝統と格式を受け継ぎながらも、常に革新性を大切に、</p>
+							<p>常にお客様へ清新な感動を与え続けていきます。</p>
+							<div class="view-more">
+								<a href="#">
+									<p>
+										View More <span><img src="assets/img/arrow.png" /></span>
+									</p>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="section-5" id="access">
+			<div class="section-5-main">
+				<div class="container">
+					<div class="section-5-flex">
+						<div class="banner-gray">
+							<p>BANNER</p>
+						</div>
+						<div class="banner-gray">
+							<p>BANNER</p>
+						</div>
+						<div class="banner-gray">
+							<p>BANNER</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<footer>
+			<div class="footer-content">
+				<div class="footer-logo">
+					<div class="logo-content">
+						<img src="assets/img/17.png" alt="Icon banner" />
+						<h1>サン・フィレール岡崎</h1>
+					</div>
+				</div>
+
+				<div class="footer-menu">
+					<div class="container">
+						<hr>
+						<div class="footer-flex-menu">
+							<div class="menu-copyright">
+								<a href="">
+									<p>&copy;St.Filer Okazi</p>
+								</a>
+							</div>
+							<div class="menu-content">
+								<div class="menu-item">
+									<div class="menu-2">
+										<a href="">
+											<p>フェア</p>
+										</a>
+									</div>
+									<div class="menu-border">
+										<p>|</p>
+									</div>
+									<div class="menu-3">
+										<a href="">
+											<p>アクセス</p>
+										</a>
+									</div>
+									<div class="menu-border">
+										<p>|</p>
+									</div>
+									<div class="menu-4">
+										<a href="">
+											<p>プライバシーポリシー</p>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</footer>
+	</main>
+
+	<!-- JS Section -->
+	<script type="text/javascript" src="assets/js/jquery3.2.1.js"></script>
+	<script type="text/javascript" src="assets/js/materialize/bin/materialize.js"></script>
+	<script src="https://use.typekit.net/tsi1fyh.js"></script>
+	<script src="assets/js/owl.carousel.js"></script>
+	<script src="assets/js/wedding.js"></script>
+
+
+	<!-- JS Section -->
+</body>
+
+</html>
